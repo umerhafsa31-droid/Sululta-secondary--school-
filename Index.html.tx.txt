@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sululta Secondary School</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <h1>Sululta Secondary School</h1>
+    <a href="index.html">Home</a>
+    <a href="about">About</a>
+    <a href="#services">Contact</a>
+
+    <!-- Image -->
+    <h2>Our School Image</h2>
+    <img src="image01.jpg" alt="School Image">
+
+    <!-- Paragraph -->
+    <h2>About Our School</h2>
+    <p>
+        Sululta Secondary School provides quality education for students from grade 9 to 12.
+        It focuses on discipline, knowledge, and student success.
+    </p>
+
+    <!-- Ordered List -->
+    <h2>name of Students</h2>
+    <ol>
+        <li>Dereje Getachew</li>
+        <li>Fayise Gemechu</li>
+        <li>Fenan wolde</li>
+       <li>Hafsa umer</li>
+    </ol>
+
+    <!-- Table -->
+    <h2>Student Table</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th> Grade</th>
+        </tr>
+
+        <tr>
+            <td>11</td>
+            <td>Dereje Getachew</td>
+            <td>11</td>
+        </tr>
+
+        <tr>
+            <td>12</td>
+            <td>Fayise Gemechu</td>
+            <td>11</td>
+        </tr>
+  
+        <tr>
+           <td>13</td>
+           <td>Fenan Wolde</td>
+           <td>11</td>
+        </tr>
+
+        <tr> 
+           <td>14</td>
+           <td>Hafsa Umer</td>
+           <td>11</td>
+    </table>
+   
+
+    <!-- Video -->
+    <h2>School Video</h2>
+    <video controls>
+        <source src="school.mp4" type="webpahe/mp4">
+        Your browser does not support video.
+    </video>
+
+</body>
+</html>
